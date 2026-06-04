@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Overused Grotesk";
+  src: url("./assets/fonts/OverusedGroteskRoman-VF.woff2") format("woff2-variations");
+  font-weight: 300 900;
+}
+
+body {
+  background-color: #212121;
+  color: #E8E8E8;
+  font-family: Overused Grotesk;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.4;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  gap: 10px;
+}

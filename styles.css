@@ -41,9 +41,9 @@
   min-height: 44px;
   width: 44px;
   padding: 0.5rem;
-  border: 1px solid currentColor;
+  border: 0;
   border-radius: 0.5rem;
-  background-color: var(--background-color);
+  background: transparent;
   color: var(--text-color);
   font: inherit;
   cursor: pointer;
@@ -64,7 +64,7 @@
 }
 
 .theme-toggle:hover {
-  background-color: var(--grid-color);
+  color: var(--link-hover-color);
 }
 
 .theme-toggle:focus-visible {
